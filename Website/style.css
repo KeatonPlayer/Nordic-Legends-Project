@@ -1,0 +1,124 @@
+@font-face {
+    font-family: 'Norse';
+      src: url('fonts/Norse.eot'); /* IE9 Compat Modes */
+      src: url('fonts/Norse.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+          url('fonts/Norse.woff2') format('woff2'), /* Super Modern Browsers */
+          url('fonts/Norse.woff') format('woff'), /* Pretty Modern Browsers */
+          url('fonts/Norse.ttf')  format('truetype'), /* Safari, Android, iOS */
+          url('fonts/Norse.svg#svgFontName') format('svg'); /* Legacy iOS */
+      font-weight: 400;
+      font-style: normal;
+}
+body
+{
+    background: #29446f ;
+    min-height: 5000px;  
+}
+section
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section:before
+{
+content: '';
+position: absolute;
+bottom: 0;
+width: 100%;
+height: 100px;
+background: linear-gradient(to top,#29446f, transparent);
+z-index: 5000;
+}
+section:after
+{
+content: '';
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: #29446f;
+z-index: 10000;
+mix-blend-mode: color;
+}
+section img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+}
+#header
+{
+    position: relative;
+    color: #fff;
+    font-size: 10em;
+    z-index:1;
+    font-family: 'Norse';
+}
+#mountains
+{
+    z-index: 2;
+}
+
+.V1
+{
+    font-family: 'Norse';
+    right: 1000px;
+    bottom: -800px;
+    position: absolute;
+   
+    
+    
+}
+
+    
+.RagnarTitle 
+{
+
+    font-family: 'Norse';
+    font-size: 50px;
+    color: #fff;
+    right: 1120px;
+    bottom: -250px;
+    position: absolute;
+}
+
+.RagnarDesc
+
+{
+
+font-family: 'Norse';
+color: #fff;
+right: 1000px;
+bottom: -1100px;
+position: absolute;
+font-size: 20px;
+text-align:center
+}
+
+
+
+
+
+ 
+ 
+ 
+ 
+    
+
+ 
+
+
+
+
+    
+  
